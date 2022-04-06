@@ -1,2 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+
+/* HEADER */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/header__content/header__content.css);
+@import url(../blocks/header/header__title/header__title.css);
+@import url(../blocks/header/header__list-link/header__list-link.css);
+@import url(../blocks/header/header__link/header__link.css);
+@import url(../blocks/header/header__icon/header__icon.css);
