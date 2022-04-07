@@ -18,12 +18,15 @@
 @import url(../blocks/section-card/__title/section-card__title.css);
 @import url(../blocks/section-card/__button/section-card__button.css);
 @import url(../blocks/card-hidden/card-hidden.css);
+
+/* DESCRIPTION */
 @import url(../blocks/description-card/description-card.css);
 @import url(../blocks/description-card/__header-text/description-card__header-text.css);
 @import url(../blocks/description-card/__subheader-text/description-card__subheader-text.css);
 @import url(../blocks/description-card/__subheader-title/description-card__subheader-title.css);
 @import url(../blocks/description-card/__subheader-point/description-card__subheader-point.css);
 
+/* BENEFITS */
 @import url(../blocks/benefits/benefits.css);
 @import url(../blocks/benefits/__subject/benefits__subject.css);
 @import url(../blocks/benefits/__subheader-title/benefits__subheader-title.css);
@@ -31,6 +34,7 @@
 @import url(../blocks/benefits/__subheader-text/benefits__subheader-text.css);
 @import url(../blocks/benefits/__icon/benefits__icon.css);
 
+/* QUESTIONS */
 @import url(../blocks/questions/questions.css);
 @import url(../blocks/questions/__divider/questions__divider.css);
 @import url(../blocks/questions/__subheader/questions__subheader.css);
