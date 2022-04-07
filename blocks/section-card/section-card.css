@@ -1,0 +1,10 @@
+.section-card {
+  max-width: 872px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+}
+
+.section-card:last-child {
+  margin-bottom: 208px;
+}
+

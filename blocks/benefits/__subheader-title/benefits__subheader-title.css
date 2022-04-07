@@ -1,0 +1,4 @@
+.benefits__subheader-title {
+  display: flex;
+  flex-direction: row;
+}
