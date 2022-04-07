@@ -1,9 +1,0 @@
-.content__text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  margin: 0px auto 18px;
-}
-.content__text:last-of-type{
-  margin-bottom: 0px;
-}

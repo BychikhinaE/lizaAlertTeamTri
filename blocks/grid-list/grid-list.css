@@ -1,7 +1,0 @@
-.grid-list {
-  display: grid;
-  grid-template-columns: 1fr 424px;
-  grid-template-areas: "main sidebar"
-                        "action sidebar";
-  gap: 24px;
-}
