@@ -1,0 +1,7 @@
+.action-panel {
+  box-sizing: border-box;
+  padding-right: 32px;
+  padding-bottom: 99px;
+  display: flex;
+  justify-content: flex-end;
+}
