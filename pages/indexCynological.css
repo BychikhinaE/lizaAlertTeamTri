@@ -39,6 +39,7 @@
 @import url(../blocks/questions/__subheader/questions__subheader.css);
 @import url(../blocks/questions/__divider-button/questions__divider-button.css);
 @import url(../blocks/questions/__hide-img/questions__hide-img.css);
+@import url(../blocks/questions/__answer/questions__answer.css);
 
 /* GRID */
 @import url(../blocks/grid-list/grid-list.css);

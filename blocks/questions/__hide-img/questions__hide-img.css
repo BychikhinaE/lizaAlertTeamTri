@@ -1,4 +1,13 @@
 .questions__hide-img {
-  width: 10.54px;
-  height: 6.25px;
+  object-fit: contain;
+  width: 24px;
+  height: 24px;
+}
+
+@keyframes up {
+  to {transform: scaleY(-1)}
+}
+
+@keyframes down {
+  to {transform: scaleY(1)}
 }
