@@ -16,4 +16,7 @@
 }
 .breadcrumbs__item:last-child::after {
   background-image: none;
+  width: 0px;
+  height: 0px;
+  padding: 0px;
 }
