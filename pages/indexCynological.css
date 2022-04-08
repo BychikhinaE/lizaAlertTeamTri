@@ -20,7 +20,6 @@
 @import url(../blocks/card-hidden/card-hidden.css);
 
 /* DESCRIPTION */
-@import url(../blocks/description-card/description-card.css);
 @import url(../blocks/description-card/__header-text/description-card__header-text.css);
 @import url(../blocks/description-card/__subheader-text/description-card__subheader-text.css);
 @import url(../blocks/description-card/__subheader-title/description-card__subheader-title.css);
@@ -41,3 +40,7 @@
 @import url(../blocks/questions/__divider-button/questions__divider-button.css);
 @import url(../blocks/questions/__hide-img/questions__hide-img.css);
 
+/* GRID */
+@import url(../blocks/grid-list/grid-list.css);
+@import url(../blocks/grid-list/grid-list__main/grid-list__main.css);
+@import url(../blocks/grid-list/grid-list__sidebar/grid-list__sidebar.css);
