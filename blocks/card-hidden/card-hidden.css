@@ -1,6 +1,5 @@
 .card_hidden {
-  /* display: none; */
-  visibility: hidden;
+  overflow: hidden;
   opacity: 0;
   height: 0;
 }

@@ -16,3 +16,25 @@ allButton.forEach(function(item, index){
   slide(section[index], item)
   })
 })
+
+const faqButton = document.querySelectorAll('.questions__divider-button');
+const icon = document.querySelectorAll('.questions__hide-img');
+const allAnswer = document.querySelectorAll('.card_hidden');
+
+function slideFaq (icon, allAnswer) {
+  if  (allAnswer.classList.contains('card_hidden')) {
+    allAnswer.classList.remove('card_hidden');
+    icon.alt = 'скрыть ответ';
+    icon.style.animation = 'up .3s forwards'
+  } else {
+    allAnswer.classList.add('card_hidden');
+    icon.alt = 'посмотреть ответ';
+    icon.style.animation = 'down .3s forwards'
+  }
+}
+
+faqButton.forEach(function(item, index){
+  item.addEventListener('click', function(){
+  slideFaq(icon[index], allAnswer[index])
+  })
+})
