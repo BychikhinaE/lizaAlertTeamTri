@@ -1,0 +1,9 @@
+.breadcrumbs__link_active {
+font-weight: 400;
+color: #9397a3;
+}
+
+.breadcrumbs__link_active:hover {
+  opacity: 1;
+  cursor: default;
+}

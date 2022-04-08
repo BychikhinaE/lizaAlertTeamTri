@@ -1,0 +1,11 @@
+.questions__divider {
+  border-bottom: 1px solid #E6E7EB;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.questions__divider:last-child {
+  border: none;
+  margin-bottom: -32px;
+}

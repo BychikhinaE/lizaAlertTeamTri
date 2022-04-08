@@ -1,0 +1,21 @@
+.vebinar__button {
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+  color: white;
+  width: 184px;
+  height: 48px;
+  background-color: #f60;
+  border-radius: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 12px;
+  transition: opacity .5s;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.vebinar__button:hover {
+  opacity: .5;
+}
