@@ -38,6 +38,10 @@
 @import url(../blocks/action-panel/action-panel__icon/action-panel__icon.css);
 
 /* SIDEBAR */
+@import url(../blocks/sidebar/sidebar.css);
 @import url(../blocks/sidebar/__header/sidebar__header.css);
 @import url(../blocks/sidebar/__list/sidebar__list.css);
 @import url(../blocks/sidebar/__item/sidebar__item.css);
+@import url(../blocks/sidebar/__button/sidebar__button.css);
+@import url(../blocks/sidebar/__panel/sidebar__panel.css);
+@import url(../blocks/sidebar/__ico/sidebar__ico.css);
