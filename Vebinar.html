@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
   <title>Вебинар</title>
   <link rel="stylesheet" href="pages/indexVebinar.css">
 </head>
+
 <body>
   <div class="page">
     <!-- HEADER -->
@@ -16,8 +18,10 @@
         <h2 class="header__title">Учебная платформа</h2>
         <nav>
           <ul class="header__list-link">
-            <li><a class="header__link" href="https://mikhailmudrov.github.io/liza-project/index.html" target="_blank"><img class="header__icon" src="./images/course.svg" alt="логотип.">Курсы</a></li>
-            <li><a class="header__link" href="https://mikhailmudrov.github.io/liza-project/account.html"><img class="header__icon" src="./images/profile.svg" alt="логотип.">Профиль</a></li>
+            <li><a class="header__link" href="https://mikhailmudrov.github.io/liza-project/index.html"
+                target="_blank"><img class="header__icon" src="./images/course.svg" alt="логотип.">Курсы</a></li>
+            <li><a class="header__link" href="https://mikhailmudrov.github.io/liza-project/account.html"><img
+                  class="header__icon" src="./images/profile.svg" alt="логотип.">Профиль</a></li>
           </ul>
         </nav>
       </div>
@@ -26,9 +30,12 @@
     <main>
       <!-- BREADCRUMBS -->
       <ul class="breadcrumbs">
-        <li class="breadcrumbs__item"><a href="https://mikhailmudrov.github.io/liza-project/index.html" class="breadcrumbs__link">Курсы</a></li>
-        <li class="breadcrumbs__item"><a href="./Сynological.html" class="breadcrumbs__link">Кинологическое направление</a></li>
-        <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">5. Работа «второго номера» совместно со следовым кинологическим расчётом</a></li>
+        <li class="breadcrumbs__item"><a href="https://mikhailmudrov.github.io/liza-project/index.html"
+            class="breadcrumbs__link">Курсы</a></li>
+        <li class="breadcrumbs__item"><a href="./Сynological.html" class="breadcrumbs__link">Кинологическое
+            направление</a></li>
+        <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">5. Работа «второго номера» совместно
+            со следовым кинологическим расчётом</a></li>
         <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link breadcrumbs__link_active">Вебинар</a></li>
       </ul>
 
@@ -40,27 +47,182 @@
           <h1 class="vebinar__title">Вебинар</h1>
           <p class="vebinar__date">Вебинар стартует <span class="vebinar__text-accent">30.03.2022</span>
             в <span class="vebinar__text-accent">19:00</span> МСК (GTM+3)</p>
-            <a href="https://yandex.zoom.us/j/95016158702" target="_blank" class="vebinar__button">Подключиться</a>
+          <a href="https://yandex.zoom.us/j/95016158702" target="_blank" class="vebinar__button">Подключиться</a>
         </section>
 
-         <!-- ACTION-PANEL -->
-         <div class="action-panel grid-list__action">
-          <a class="action-panel__button  action-panel__button_type_back"
-          href="./lessonPage.html"
-          ><img src="./images/back.svg" alt="Стрелка назад." class="action-panel__icon"
-          >Назад</a>
+        <!-- ACTION-PANEL -->
+        <div class="action-panel grid-list__action">
+          <a class="action-panel__button  action-panel__button_type_back" href="./lessonPage.html"><img
+              src="./images/back.svg" alt="Стрелка назад." class="action-panel__icon">Назад</a>
           <a class="action-panel__button  action-panel__button_type_ahead"
-          href="https://mikhailmudrov.github.io/lizaAlertTeamWork/video.html"
-          >Далее<img src="./images/ahead.svg" class="action-panel__icon" alt="Стрелка вперёд."></a>
+            href="https://mikhailmudrov.github.io/lizaAlertTeamWork/video.html">Далее<img src="./images/ahead.svg"
+              class="action-panel__icon" alt="Стрелка вперёд."></a>
         </div>
 
         <!-- SIDEBAR-->
-      <aside class="grid-list__sidebar"><p>SIDEBARSIDEBARSIDEBAR</p></aside>
+        <aside class="sidebar grid-list__sidebar">
+          <h2 class="sidebar__header">Содержание</h2>
+
+          <ul class="sidebar__list">
+
+            <li class="sidebar__item">
+              <button class="sidebar__button" id="sidebar-button">
+                <span>1. В каких случаях перспективно применение следовых кинологических расчётов</span>
+                <img class="sidebar__ico-button" id="sidebar-ico-button" src="./images/hide.svg"
+                  alt="посмотреть/скрыть/скрыть">
+              </button>
+              <div class="sidebar__panel" id="sidebar-panel">
+                <ul class="sidebar__sub-list">
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/lesson.svg" alt="Урок">
+                    <p class="sidebar__paragraph">Урок</p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="sidebar__item">
+
+              <button class="sidebar__button" id="sidebar-button">
+                <span>2. Необходимые обеспечительные меры для успешного применения следовых (розыскных собак)</span>
+                <img class="sidebar__ico-button" id="sidebar-ico-button" src="./images/hide.svg"
+                  alt="посмотреть/скрыть/скрыть">
+              </button>
+              <div class="sidebar__panel" id="sidebar-panel">
+                <ul class="sidebar__sub-list">
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/lesson.svg" alt="Урок">
+                    <p class="sidebar__paragraph">Урок</p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="sidebar__item">
+
+              <button class="sidebar__button" id="sidebar-button">
+                <span>3. Особенности привлечения следовых расчётов на ПСР и особенности взаимодействия</span>
+                <img class="sidebar__ico-button" id="sidebar-ico-button" src="./images/hide.svg"
+                  alt="посмотреть/скрыть/скрыть">
+              </button>
+              <div class="sidebar__panel" id="sidebar-panel">
+                <ul class="sidebar__sub-list">
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/circle-green.svg" alt="Урок">
+                    <p class="sidebar__paragraph">Урок</p>
+                  </li>
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/circle-green.svg" alt="Вебинар">
+                    <p class="sidebar__paragraph">Вебинар</p>
+                  </li>
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/circle-green.svg" alt="Урок">
+                    <p class="sidebar__paragraph">Урок</p>
+                  </li>
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/circle-green.svg" alt="Видео">
+                    <p class="sidebar__paragraph">Видео</p>
+                  </li>
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/circle-green.svg" alt="Тест">
+                    <p class="sidebar__paragraph">Тест</p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="sidebar__item">
+              <button class="sidebar__button" id="sidebar-button">
+                <span>4. Корректная постановка задачи кинологу и особенности её исполнения</span>
+                <img class="sidebar__ico-button" id="sidebar-ico-button" src="./images/hide.svg"
+                  alt="посмотреть/скрыть/скрыть">
+              </button>
+              <div class="sidebar__panel" id="sidebar-panel">
+                <ul class="sidebar__sub-list">
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/webinar.svg" alt="Вебинар">
+                    <p class="sidebar__paragraph">Вебинар</p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="sidebar__item">
+              <button class="sidebar__button" id="sidebar-button">
+                <span>5. Работа &laquo;второго номера&raquo; совместно со следовым кинологическим расчётом</span>
+                <img class="sidebar__ico-button" id="sidebar-ico-button" src="./images/hide.svg"
+                  alt="посмотреть/скрыть/скрыть/скрыть">
+              </button>
+              <div class="sidebar__panel" id="sidebar-panel">
+                <ul class="sidebar__sub-list">
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/lesson.svg" alt="Урок">
+                    <p class="sidebar__paragraph">Урок</p>
+                  </li>
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/webinar.svg" alt="Урок">
+                    <p class="sidebar__paragraph">Вебинар</p>
+                  </li>
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/lesson.svg" alt="Урок">
+                    <p class="sidebar__paragraph">Урок</p>
+                  </li>
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/video.svg" alt="Урок">
+                    <p class="sidebar__paragraph">Видео</p>
+                  </li>
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/test.svg" alt="Урок">
+                    <p class="sidebar__paragraph">Тест</p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="sidebar__item">
+              <button class="sidebar__button" id="sidebar-button">
+                <span>6. Оценка качества и особенности анализа результата проделанной следовым кинологическим расчётом
+                  работы</span>
+                <img class="sidebar__ico-button" id="sidebar-ico-button" src="./images/hide.svg"
+                  alt="посмотреть/скрыть/скрыть">
+              </button>
+              <div class="sidebar__panel" id="sidebar-panel">
+                <ul class="sidebar__sub-list">
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/lesson.svg" alt="Урок">
+                    <p class="sidebar__paragraph">Урок</p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="sidebar__item">
+              <button class="sidebar__button" id="sidebar-button">
+                <span>7. Особенности и пределы использования РПРС ом полученной в ходе применения специальной следовой
+                  собаки информации в целях успешного разрешения поисков</span>
+                <img class="sidebar__ico-button" id="sidebar-ico-button" src="./images/hide.svg"
+                  alt="посмотреть/скрыть/скрыть">
+              </button>
+              <div class="sidebar__panel" id="sidebar-panel">
+                <ul class="sidebar__sub-list">
+                  <li class="sidebar__sub-item">
+                    <img class="sidebar__ico" src="./images/lesson.svg" alt="Урок">
+                    <p class="sidebar__paragraph">Урок</p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+          </ul>
+
+        </aside>
       </div>
 
 
     </main>
 
   </div>
+  <script src="./Vebinar.js"></script>
 </body>
+
 </html>
