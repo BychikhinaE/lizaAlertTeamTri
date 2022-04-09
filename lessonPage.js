@@ -1,18 +1,14 @@
 // SIDEBAR
-const buttonSidebar = document.querySelector('#sidebar-button');
-const iconSidebar = buttonSidebar.querySelector('#sidebar-ico-button');
-const panelSidebar = document.querySelector('#sidebar-panel');
+const buttonSidebar = document.querySelectorAll("#sidebar-button");
+const iconSidebar = document.querySelector("#sidebar-ico-button");
+const panelSidebar = document.querySelector("#sidebar-panel");
 
-let opened = false;
-
-
-buttonSidebar.onclick = function () {
-  if (opened) {
-    iconSidebar.classList.remove('sidebar__ico-button_rotated');
-    panelSidebar.classList.remove('sidebar__panel_opened');
-  } else {
-    iconSidebar.classList.add('sidebar__ico-button_rotated');
-    panelSidebar.classList.add('sidebar__panel_opened');
-  }
-  opened = !opened;
-};
+buttonSidebar.forEach((element) =>
+  element.addEventListener("click", function () {
+    const el = element.closest("li");
+    const elIco = el.querySelector("#sidebar-ico-button");
+    const elPanel = el.querySelector("#sidebar-panel");
+    elIco.classList.toggle("sidebar__ico-button_rotated");
+    elPanel.classList.toggle("sidebar__panel_opened");
+  })
+);
