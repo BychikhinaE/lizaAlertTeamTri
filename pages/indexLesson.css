@@ -39,3 +39,5 @@
 
 /* SIDEBAR */
 @import url(../blocks/sidebar/__header/sidebar__header.css);
+@import url(../blocks/sidebar/__list/sidebar__list.css);
+@import url(../blocks/sidebar/__item/sidebar__item.css);
