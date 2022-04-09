@@ -1,0 +1,9 @@
+.quality-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 360px;
+  list-style-type: none;
+  margin: 32px auto 16px;
+
+}

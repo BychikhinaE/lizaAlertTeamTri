@@ -50,3 +50,18 @@
 
 /* Приоритетное свойство для исчезающих блоков */
 @import url(../blocks/card-hidden/card-hidden.css);
+
+/* CARD WITH A DOG */
+@import url(../blocks/description-box/description-box.css);
+@import url(../blocks/title-box/title-box.css);
+@import url(../blocks/quality-item/quality-item.css);
+@import url(../blocks/quality-list/quality-list.css);
+@import url(../blocks/dogs-icon/dogs-icon.css);
+@import url(../blocks/picture-dog/picture-dog.css);
+@import url(../blocks/section-box/section-box.css);
+@import url(../blocks/section-box/__shadow/section-box__shadow.css);
+@import url(../blocks/text-container/text-container.css);
+@import url(../blocks/danger-icon/danger-icon.css);
+@import url(../blocks/text-attantion/text-attantion.css);
+@import url(../blocks/block-attantion/block-attantion.css);
+@import url(../blocks/button-next/button-next.css);
