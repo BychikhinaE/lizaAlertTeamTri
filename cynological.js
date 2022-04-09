@@ -17,11 +17,11 @@ allButton.forEach(function(item, index){
   })
 })
 
-const faqButton = document.querySelectorAll('.questions__divider-button');
+const faqButton = document.querySelectorAll('.questions__subheader');
 const icon = document.querySelectorAll('.questions__hide-img');
 const allAnswer = document.querySelectorAll('.questions__answer');
 
-function slideFaq (icon, allAnswer) {
+function slideIcon (icon, allAnswer) {
   if  (allAnswer.classList.contains('card_hidden')) {
     allAnswer.classList.remove('card_hidden');
     icon.alt = 'скрыть ответ';
@@ -35,6 +35,6 @@ function slideFaq (icon, allAnswer) {
 
 faqButton.forEach(function(item, index){
   item.addEventListener('click', function(){
-  slideFaq(icon[index], allAnswer[index])
+  slideIcon(icon[index], allAnswer[index])
   })
 })

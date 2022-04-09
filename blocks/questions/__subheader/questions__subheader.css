@@ -1,5 +1,4 @@
 .questions__subheader {
-  /* margin-bottom: 33px; */
   margin: 0;
   font-family: 'Golos';
   font-style: normal;
@@ -9,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 
 
