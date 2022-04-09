@@ -9,3 +9,8 @@ font-size: 18px;
 line-height: 24px;
 color: #212329;
 }
+
+
+.sidebar__sub-item:last-child {
+  margin-bottom: 32px;
+}
