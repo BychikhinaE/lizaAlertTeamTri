@@ -19,7 +19,7 @@ allButton.forEach(function(item, index){
 
 const faqButton = document.querySelectorAll('.questions__divider-button');
 const icon = document.querySelectorAll('.questions__hide-img');
-const allAnswer = document.querySelectorAll('.card_hidden');
+const allAnswer = document.querySelectorAll('.questions__answer');
 
 function slideFaq (icon, allAnswer) {
   if  (allAnswer.classList.contains('card_hidden')) {
