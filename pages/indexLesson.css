@@ -52,3 +52,5 @@
 @import url(../blocks/sidebar/__circle/sidebar__circle.css);
 @import url(../blocks/sidebar/__paragraph/sidebar__paragraph.css);
 @import url(../blocks/sidebar/__ico-button/_rotated/sidebar__ico-button_rotated.css);
+@import url(../blocks/sidebar/__paragraph/_active/sidebar__paragraph_active.css);
+@import url(../blocks/sidebar/__ico/_active/sidebar__ico_active.css);

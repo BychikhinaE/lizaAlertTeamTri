@@ -9,6 +9,7 @@ buttonSidebar.forEach((element) =>
     const elIco = el.querySelector("#sidebar-ico-button");
     const elPanel = el.querySelector("#sidebar-panel");
     elIco.classList.toggle("sidebar__ico-button_rotated");
+
     elPanel.classList.toggle("sidebar__panel_opened");
   })
 );

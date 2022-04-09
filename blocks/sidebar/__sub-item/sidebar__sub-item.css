@@ -1,7 +1,7 @@
 .sidebar__sub-item {
 margin-bottom: 16px;
 display: flex;
-align-items: center;
+align-items: flex-start;
 font-family: 'Golos';
 font-style: normal;
 font-weight: 400;
