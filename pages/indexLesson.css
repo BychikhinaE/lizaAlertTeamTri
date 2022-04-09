@@ -47,7 +47,7 @@
 @import url(../blocks/sidebar/__button/sidebar__button.css);
 @import url(../blocks/sidebar/__panel/sidebar__panel.css);
 @import url(../blocks/sidebar/__ico/sidebar__ico.css);
-@import url(../blocks/sidebar/__ico/sidebar__ico-button.css);
+@import url(../blocks/sidebar/__ico-button/sidebar__ico-button.css);
 @import url(../blocks/sidebar/__panel/_opened/sidebar__panel_opened.css);
 @import url(../blocks/sidebar/__circle/sidebar__circle.css);
 @import url(../blocks/sidebar/__paragraph/sidebar__paragraph.css);
