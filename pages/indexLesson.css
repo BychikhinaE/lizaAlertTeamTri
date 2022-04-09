@@ -36,3 +36,6 @@
 @import url(../blocks/action-panel/action-panel__button/_type/action-panel__button_type_back.css);
 @import url(../blocks/action-panel/action-panel__button/_type/action-panel__button_type_ahead.css);
 @import url(../blocks/action-panel/action-panel__icon/action-panel__icon.css);
+
+/* SIDEBAR */
+@import url(../blocks/sidebar/__header/sidebar__header.css);
