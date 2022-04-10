@@ -2,12 +2,15 @@ const allButton = document.querySelectorAll('.section-card__button');
 const section = document.querySelectorAll('.JS-lock');
 
 function slide (element, title) {
+  let elHeight = element.scrollHeight;
   if  (element.classList.contains('card-hidden')) {
     element.classList.remove('card-hidden');
     title.textContent = 'Свернуть';
+    element.style.minHeight = elHeight + 'px';
   } else {
     element.classList.add('card-hidden');
     title.textContent = 'Развернуть';
+    element.style.minHeight = 0;
   }
 }
 
