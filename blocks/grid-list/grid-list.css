@@ -4,4 +4,5 @@
   grid-template-areas: "main sidebar"
                         "action sidebar";
   gap: 24px;
+  grid-template-rows: auto 1fr;
 }

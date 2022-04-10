@@ -1,0 +1,23 @@
+.button-next {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin: 32px auto;
+  transition: opacity .5s;
+  text-decoration: none;
+  color: white;
+  background-color: #f60;
+  border: none;
+  width: 360px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.button-next:hover {
+  opacity: .5;
+}
