@@ -1,5 +1,6 @@
 .grid-list__sidebar {
   grid-area: sidebar;
+  align-self: start;
   /* box-shadow: 0 0 4px rgb(231 232 235 / 60%), 0 4px 16px rgb(231 232 235 / 60%);
   border-radius: 16px; */
 }
