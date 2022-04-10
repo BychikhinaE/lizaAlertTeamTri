@@ -14,12 +14,12 @@ buttonSidebar.forEach((element) => {
   ) {
     el.querySelector(".sidebar__panel_opened").style.height = heihtEl;
   }
-// вешаем слушатели на все кнопки
-  element.addEventListener("click", function () {
+  // вешаем слушатели на все кнопки
+  el.addEventListener("click", function () {
     elIco.classList.toggle("sidebar__ico-button_rotated"); // меняем иконку при клике
-// проверяем если панель
-//если  открыта меняем высоту контента на 0 и закрываем его
-//если закрыта открываем панель и задаем высоту контента
+    // проверяем если панель
+    //если  открыта меняем высоту контента на 0 и закрываем его
+    //если закрыта открываем панель и задаем высоту контента
 
     if (
       el
