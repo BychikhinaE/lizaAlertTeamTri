@@ -1,5 +1,7 @@
 .sidebar__panel {
-  display: none;
+height: 0;
+overflow: hidden;
+transition: 1s ease-in-out;
   font-family: 'Golos';
   font-style: normal;
   font-weight: 400;
