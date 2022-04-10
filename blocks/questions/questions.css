@@ -3,6 +3,6 @@
   list-style-type: none;
   padding-left: 0;
   /* max-height: 100vh; */
-  min-height: 100px;
+  min-height: 200px;
   transition: all .2s ease-in;
 }
