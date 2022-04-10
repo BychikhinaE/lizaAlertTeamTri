@@ -9,7 +9,7 @@
   line-height: 24px;
 
   color: #212329;
-
+  cursor: pointer;
   visibility: hidden;
   opacity: 0;
 }
