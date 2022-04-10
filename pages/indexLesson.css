@@ -46,11 +46,22 @@
 @import url(../blocks/sidebar/__sub-item/sidebar__sub-item.css);
 @import url(../blocks/sidebar/__button/sidebar__button.css);
 @import url(../blocks/sidebar/__panel/sidebar__panel.css);
-@import url(../blocks/sidebar/__ico/sidebar__ico.css);
 @import url(../blocks/sidebar/__ico-button/sidebar__ico-button.css);
 @import url(../blocks/sidebar/__panel/_opened/sidebar__panel_opened.css);
 @import url(../blocks/sidebar/__circle/sidebar__circle.css);
 @import url(../blocks/sidebar/__paragraph/sidebar__paragraph.css);
 @import url(../blocks/sidebar/__ico-button/_rotated/sidebar__ico-button_rotated.css);
 @import url(../blocks/sidebar/__paragraph/_active/sidebar__paragraph_active.css);
-@import url(../blocks/sidebar/__ico/_active/sidebar__ico_active.css);
+
+/* ico */
+@import url(../blocks/ico/ico.css);
+@import url(../blocks/ico/__lesson/ico__lesson.css);
+@import url(../blocks/ico/__lesson/_active/ico__lesson_active.css);
+@import url(../blocks/ico/__webinar/ico__webinar.css);
+@import url(../blocks/ico/__webinar/_active/ico__webinar_active.css);
+@import url(../blocks/ico/__video/ico__video.css);
+@import url(../blocks/ico/__video/_active/ico__video_active.css);
+@import url(../blocks/ico/__test/ico__test.css);
+@import url(../blocks/ico/__test/_active/ico__test_active.css);
+@import url(../blocks/ico/_done/ico_done.css);
+
