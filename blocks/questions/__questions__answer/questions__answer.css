@@ -1,5 +1,5 @@
 .questions__answer {
   max-height: 100vh;
   height: auto;
-  transition: all .2s ease-in;
+  transition: all .3s ease-in-out;
 }

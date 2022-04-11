@@ -25,11 +25,11 @@ function slideIcon (icon, allAnswer) {
   if  (allAnswer.classList.contains('card-hidden')) {
     allAnswer.classList.remove('card-hidden');
     icon.alt = 'скрыть ответ';
-    icon.style.animation = 'up .3s forwards'
+    icon.style.transform = 'scaleY(-1)'
   } else {
     allAnswer.classList.add('card-hidden');
     icon.alt = 'посмотреть ответ';
-    icon.style.animation = 'down .3s forwards'
+    icon.style.transform = 'scaleY(1)'
   }
 }
 
