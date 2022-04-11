@@ -1,4 +1,7 @@
 .ico__test {
-background-image: url(../../../images/test.svg);
-background-repeat: no-repeat;
+  background-image: url(../../../images/test.svg);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  margin-right: 8px;
 }

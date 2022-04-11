@@ -63,5 +63,7 @@
 @import url(../blocks/ico/__video/_active/ico__video_active.css);
 @import url(../blocks/ico/__test/ico__test.css);
 @import url(../blocks/ico/__test/_active/ico__test_active.css);
-@import url(../blocks/ico/_done/ico_done.css);
+@import url(../blocks/ico/__circle/ico__circle.css);
+@import url(../blocks/ico/__circle/_done/ico__circle_done.css);
+
 
