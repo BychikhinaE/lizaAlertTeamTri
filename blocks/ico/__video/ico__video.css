@@ -1,4 +1,7 @@
 .ico__video {
-background-image: url(../.././../images/video.svg);
-background-repeat: no-repeat;
+  background-image: url(../.././../images/video.svg);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  margin-right: 8px;
 }
