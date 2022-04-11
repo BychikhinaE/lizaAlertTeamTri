@@ -19,3 +19,7 @@
   line-height: 24px;
   color: #212329;
 }
+
+.sidebar__item:last-child .sidebar__button {
+  padding-bottom: 0;
+}
