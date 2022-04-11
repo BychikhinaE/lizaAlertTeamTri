@@ -8,7 +8,8 @@
 @import url(../blocks/header/header__title/header__title.css);
 @import url(../blocks/header/header__list-link/header__list-link.css);
 @import url(../blocks/header/header__link/header__link.css);
-@import url(../blocks/header/header__icon/header__icon.css);
+@import url(../blocks/header/header__link/_type/header__link_type_course.css);
+@import url(../blocks/header/header__link/_type/header__link_type_profile.css);
 
 /* BREADCRUMBS */
 @import url(../blocks/breadcrumbs/breadcrumbs.css);

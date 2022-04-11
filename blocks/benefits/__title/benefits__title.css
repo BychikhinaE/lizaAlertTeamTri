@@ -5,5 +5,17 @@
   font-size: 18px;
   line-height: 24px;
   color: #212329;
-  margin: 0 0 16px 10px;
+  margin: 0;
+}
+
+.benefits__title::before {
+  display: inline-block;
+  content: '';
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  background-image: url(../../../images/circle.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: bottom;
 }

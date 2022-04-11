@@ -4,12 +4,5 @@
   height: 24px;
   box-sizing: border-box;
   padding: 6px;
-}
-
-@keyframes up {
-  to {transform: scaleY(-1)}
-}
-
-@keyframes down {
-  to {transform: scaleY(1)}
+  transition: transform .3s;
 }

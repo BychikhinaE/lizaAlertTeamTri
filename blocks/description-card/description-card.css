@@ -1,5 +1,4 @@
 .description-card {
-  /* max-height: 100vh; */
   min-height: 500px;
-  transition: all .2s ease-in;
+  transition: all .3s ease-in-out;
 }
