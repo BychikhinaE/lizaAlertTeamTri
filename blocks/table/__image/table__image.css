@@ -1,0 +1,7 @@
+.table__image {
+  /* outline: 1px solid red; */
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}

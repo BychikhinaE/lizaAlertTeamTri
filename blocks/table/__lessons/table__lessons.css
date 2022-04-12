@@ -1,0 +1,5 @@
+.table__lessons {
+  /* outline: 1px solid orange; */
+  display: flex;
+  flex-direction: column;
+}
