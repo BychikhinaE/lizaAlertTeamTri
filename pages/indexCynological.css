@@ -47,9 +47,6 @@
 @import url(../blocks/grid-list/grid-list__main/grid-list__main.css);
 @import url(../blocks/grid-list/grid-list__sidebar/grid-list__sidebar.css);
 
-/* Приоритетное свойство для исчезающих блоков */
-@import url(../blocks/card-hidden/card-hidden.css);
-
 /* CARD WITH A DOG */
 @import url(../blocks/description-box/description-box.css);
 @import url(../blocks/title-box/title-box.css);
@@ -64,3 +61,18 @@
 @import url(../blocks/text-attantion/text-attantion.css);
 @import url(../blocks/block-attantion/block-attantion.css);
 @import url(../blocks/button-next/button-next.css);
+
+/* Block Content */
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__lists/table__lists.css);
+@import url(../blocks/table/__list/table__list.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/__lessons/table__lessons.css);
+@import url(../blocks/table/__lesson/table__lesson.css);
+@import url(../blocks/table/__image/table__image.css);
+@import url(../blocks/table/__paragraph/table__paragraph.css);
+@import url(../blocks/table/__symbol/table__symbol.css);
+@import url(../blocks/table/__divider/table__divider.css);
+
+/* Приоритетное свойство для исчезающих блоков */
+@import url(../blocks/card-hidden/card-hidden.css);

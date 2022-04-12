@@ -1,0 +1,6 @@
+.table__symbol {
+  display: block;
+  width: 24px;
+  height: 24px;
+  justify-self: right;
+}
