@@ -55,7 +55,6 @@
 @import url(../blocks/sidebar/__paragraph/_active/sidebar__paragraph_active.css);
 
 /* ico */
-@import url(../blocks/ico/ico.css);
 @import url(../blocks/ico/__lesson/ico__lesson.css);
 @import url(../blocks/ico/__lesson/_active/ico__lesson_active.css);
 @import url(../blocks/ico/__webinar/ico__webinar.css);
