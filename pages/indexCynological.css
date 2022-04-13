@@ -14,18 +14,17 @@
 /* CYNOLOGICAL */
 @import url(../blocks/cynolog-head/cynolog-head.css);
 @import url(../blocks/section-card/section-card.css);
-@import url(../blocks/section-card/__shadow/section-card__shadow.css);
 @import url(../blocks/section-card/__header/section-card__header.css);
 @import url(../blocks/section-card/__title/section-card__title.css);
 @import url(../blocks/section-card/__button/section-card__button.css);
 
 
 /* DESCRIPTION */
+@import url(../blocks/description-card/description-card.css);
 @import url(../blocks/description-card/__header-text/description-card__header-text.css);
 @import url(../blocks/description-card/__subheader-text/description-card__subheader-text.css);
 @import url(../blocks/description-card/__subheader-title/description-card__subheader-title.css);
 @import url(../blocks/description-card/__subheader-point/description-card__subheader-point.css);
-@import url(../blocks/description-card/description-card.css);
 
 /* BENEFITS */
 @import url(../blocks/benefits/benefits.css);
@@ -39,7 +38,7 @@
 @import url(../blocks/questions/__subheader/questions__subheader.css);
 @import url(../blocks/questions/__divider-button/questions__divider-button.css);
 @import url(../blocks/questions/__hide-img/questions__hide-img.css);
-@import url(../blocks/questions/questions__answer-text/questions__answer-text.css);
+@import url(../blocks/questions/__answer-text/questions__answer-text.css);
 @import url(../blocks/questions/__questions__answer/questions__answer.css);
 
 /* GRID */
@@ -47,22 +46,19 @@
 @import url(../blocks/grid-list/grid-list__main/grid-list__main.css);
 @import url(../blocks/grid-list/grid-list__sidebar/grid-list__sidebar.css);
 
-/* CARD WITH A DOG */
-@import url(../blocks/description-box/description-box.css);
-@import url(../blocks/title-box/title-box.css);
-@import url(../blocks/quality-item/quality-item.css);
-@import url(../blocks/quality-list/quality-list.css);
-@import url(../blocks/dogs-icon/dogs-icon.css);
-@import url(../blocks/picture-dog/picture-dog.css);
-@import url(../blocks/section-box/section-box.css);
-@import url(../blocks/section-box/__shadow/section-box__shadow.css);
-@import url(../blocks/text-container/text-container.css);
-@import url(../blocks/danger-icon/danger-icon.css);
-@import url(../blocks/text-attantion/text-attantion.css);
-@import url(../blocks/block-attantion/block-attantion.css);
-@import url(../blocks/button-next/button-next.css);
+/* COURSE INFO */
+@import url(../blocks/course-info/course-info.css);
+@import url(../blocks/course-info/course-info__picture/course-info__picture.css);
+@import url(../blocks/course-info/course-info__list/course-info__list.css);
+@import url(../blocks/course-info/course-info__item/course-info__item.css);
+@import url(../blocks/course-info/course-info__icon/course-info__icon.css);
+@import url(../blocks/course-info/course-info__text-container/course-info__text-container.css);
+@import url(../blocks/course-info/course-info__text/course-info__text.css);
+@import url(../blocks/course-info/course-info__block-attantion/course-info__block-attantion.css);
+@import url(../blocks/course-info/course-info__text-attantion/course-info__text-attantion.css);
+@import url(../blocks/course-info/course-info__button-next/course-info__button-next.css);
 
-/* Block Content */
+/* СОДЕРЖАНИЕ */
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__lists/table__lists.css);
 @import url(../blocks/table/__list/table__list.css);

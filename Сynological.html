@@ -17,17 +17,21 @@
           <nav>
             <ul class="header__list-link">
               <li>
-                <a class="header__link header__link_type_course"
+                <a
+                  class="header__link header__link_type_course"
                   href="https://mikhailmudrov.github.io/liza-project/index.html"
                   target="_blank"
-                  >
-                  Курсы</a>
+                >
+                  Курсы</a
+                >
               </li>
               <li>
-                <a class="header__link header__link_type_profile"
+                <a
+                  class="header__link header__link_type_profile"
                   href="https://mikhailmudrov.github.io/liza-project/account.html"
-                  >
-                  Профиль</a>
+                >
+                  Профиль</a
+                >
               </li>
             </ul>
           </nav>
@@ -38,7 +42,6 @@
         <h1 class="cynolog-head">Кинологическое направление</h1>
         <div class="grid-list">
           <div class="grid-list__main">
-
             <!-- Описание курса -->
             <section class="section-card">
               <div class="section-card__header">
@@ -46,7 +49,7 @@
                 <button
                   class="section-card__button section-card__button-description"
                 >
-                Свернуть
+                  Свернуть
                 </button>
               </div>
               <div class="description-card JS-lock">
@@ -95,7 +98,8 @@
               <div class="section-card__header">
                 <h2 class="section-card__title">Чему вы научитесь</h2>
                 <button
-                  class="section-card__button section-card__button-benefits">
+                  class="section-card__button section-card__button-benefits"
+                >
                   Свернуть
                 </button>
               </div>
@@ -616,63 +620,57 @@
           </div>
 
           <!--КАРТОЧКА КУРСА -->
-          <div class="grid-list__sidebar">
-            <section
-              class="section-box"
-              aria-label="Карточка курса"
-            >
-              <img src="./images/dog.png" class="picture-dog" alt="Овчарка в профиль" />
-              <ul class="quality-list">
-                <li class="quality-item">
-                  <img src="./images/Rank.svg" class="dogs-icon" alt="Ранг" />
-                  <div class="text-container">
-                    <p class="title-box">Уровень:</p>
-                    <p class="description-box">Бывалый</p>
-                  </div>
-                </li>
-                <li class="quality-item">
-                  <img
-                    src="./images/Lessons.svg"
-                    class="dogs-icon"
-                    alt="Урок"
-                  />
-                  <div class="text-container">
-                    <p class="title-box">Количество занятий:</p>
-                    <p class="description-box">24</p>
-                  </div>
-                </li>
-                <li class="quality-item">
-                  <img
-                    src="./images/Duration.svg"
-                    class="dogs-icon"
-                    alt="Продолжительность"
-                  />
-                  <div class="text-container">
-                    <p class="title-box">Продолжительность:</p>
-                    <p class="description-box">64 ч</p>
-                  </div>
-                </li>
-                <li class="quality-item">
-                  <img src="./images/Date.svg" class="dogs-icon" alt="Дата" />
-                  <div class="text-container">
-                    <p class="title-box">Старт занятий:</p>
-                    <p class="description-box">22.02.2022 г</p>
-                  </div>
-                </li>
-              </ul>
-              <div class="block-attantion">
-                <img
-                  src="./images/Exclamation-mark.svg"
-                  class="danger-icon"
-                  alt="Восклицательный знак"
-                />
-                <p class="text-attantion">
-                  Внимание! Количество попыток прохождения курса ограничено
-                </p>
-              </div>
-              <a href="./lessonPage.html" class="button-next">Продолжить</a>
-            </section>
-          </div>
+          <section
+            class="course-info grid-list__sidebar"
+            aria-label="Карточка курса"
+          >
+            <img
+              src="./images/dog.png"
+              class="course-info__picture"
+              alt="Овчарка в поле"
+            />
+            <ul class="course-info__list">
+              <li class="course-info__item">
+                <img src="./images/Rank.svg" class="course-info__icon" alt="Ранг"/>
+                <div class="course-info__text-container">
+                  <p class="course-info__text">Уровень:</p>
+                  <p class="course-info__text">Бывалый</p>
+                </div>
+              </li>
+              <li class="course-info__item">
+                <img src="./images/Lessons.svg" class="course-info__icon" alt="Урок"/>
+                <div class="course-info__text-container">
+                  <p class="course-info__text">Количество занятий:</p>
+                  <p class="course-info__text">24</p>
+                </div>
+              </li>
+              <li class="course-info__item">
+                <img src="./images/Duration.svg" class="course-info__icon" alt="Продолжительность"/>
+                <div class="course-info__text-container">
+                  <p class="course-info__text">Продолжительность:</p>
+                  <p class="course-info__text">64 ч</p>
+                </div>
+              </li>
+              <li class="course-info__item">
+                <img src="./images/Date.svg" class="course-info__icon" alt="Дата"/>
+                <div class="course-info__text-container">
+                  <p class="course-info__text">Старт занятий:</p>
+                  <p class="course-info__text">22.02.2022 г</p>
+                </div>
+              </li>
+            </ul>
+            <div class="course-info__block-attantion">
+              <img
+                src="./images/Exclamation-mark.svg"
+                class="course-info__icon"
+                alt="Восклицательный знак"
+              />
+              <p class="course-info__text-attantion">
+                Внимание! Количество попыток прохождения курса ограничено
+              </p>
+            </div>
+            <a href="./lessonPage.html" class="course-info__button-next">Продолжить</a>
+          </section>
         </div>
       </main>
     </div>
