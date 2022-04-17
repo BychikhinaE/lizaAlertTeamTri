@@ -4,12 +4,12 @@
 
 /* HEADER */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/header__content/header__content.css);
-@import url(../blocks/header/header__title/header__title.css);
-@import url(../blocks/header/header__list-link/header__list-link.css);
-@import url(../blocks/header/header__link/header__link.css);
-@import url(../blocks/header/header__link/_type/header__link_type_course.css);
-@import url(../blocks/header/header__link/_type/header__link_type_profile.css);
+@import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__list-link/header__list-link.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_type/header__link_type_course.css);
+@import url(../blocks/header/__link/_type/header__link_type_profile.css);
 
 /* CYNOLOGICAL */
 @import url(../blocks/cynolog-head/cynolog-head.css);
@@ -39,24 +39,24 @@
 @import url(../blocks/questions/__divider-button/questions__divider-button.css);
 @import url(../blocks/questions/__hide-img/questions__hide-img.css);
 @import url(../blocks/questions/__answer-text/questions__answer-text.css);
-@import url(../blocks/questions/__questions__answer/questions__answer.css);
+@import url(../blocks/questions/__answer/questions__answer.css);
 
 /* GRID */
 @import url(../blocks/grid-list/grid-list.css);
-@import url(../blocks/grid-list/grid-list__main/grid-list__main.css);
-@import url(../blocks/grid-list/grid-list__sidebar/grid-list__sidebar.css);
+@import url(../blocks/grid-list/__main/grid-list__main.css);
+@import url(../blocks/grid-list/__sidebar/grid-list__sidebar.css);
 
 /* COURSE INFO */
 @import url(../blocks/course-info/course-info.css);
-@import url(../blocks/course-info/course-info__picture/course-info__picture.css);
-@import url(../blocks/course-info/course-info__list/course-info__list.css);
-@import url(../blocks/course-info/course-info__item/course-info__item.css);
-@import url(../blocks/course-info/course-info__icon/course-info__icon.css);
-@import url(../blocks/course-info/course-info__text-container/course-info__text-container.css);
-@import url(../blocks/course-info/course-info__text/course-info__text.css);
-@import url(../blocks/course-info/course-info__block-attantion/course-info__block-attantion.css);
-@import url(../blocks/course-info/course-info__text-attantion/course-info__text-attantion.css);
-@import url(../blocks/course-info/course-info__button-next/course-info__button-next.css);
+@import url(../blocks/course-info/__picture/course-info__picture.css);
+@import url(../blocks/course-info/__list/course-info__list.css);
+@import url(../blocks/course-info/__item/course-info__item.css);
+@import url(../blocks/course-info/__icon/course-info__icon.css);
+@import url(../blocks/course-info/__text-container/course-info__text-container.css);
+@import url(../blocks/course-info/__text/course-info__text.css);
+@import url(../blocks/course-info/__block-attantion/course-info__block-attantion.css);
+@import url(../blocks/course-info/__text-attantion/course-info__text-attantion.css);
+@import url(../blocks/course-info/__button-next/course-info__button-next.css);
 
 /* СОДЕРЖАНИЕ */
 @import url(../blocks/table/table.css);
