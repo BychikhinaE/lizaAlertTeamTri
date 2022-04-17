@@ -2,12 +2,10 @@
   height: 0;
   overflow: hidden;
   transition: 0.3s ease-in-out;
-  font-family: "Golos";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-
   color: #212329;
   cursor: pointer;
   visibility: hidden;

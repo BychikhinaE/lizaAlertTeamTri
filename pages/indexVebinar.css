@@ -4,39 +4,39 @@
 
 /* HEADER */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/header__content/header__content.css);
-@import url(../blocks/header/header__title/header__title.css);
-@import url(../blocks/header/header__list-link/header__list-link.css);
-@import url(../blocks/header/header__link/header__link.css);
-@import url(../blocks/header/header__link/_type/header__link_type_course.css);
-@import url(../blocks/header/header__link/_type/header__link_type_profile.css);
+@import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__list-link/header__list-link.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_type/header__link_type_course.css);
+@import url(../blocks/header/__link/_type/header__link_type_profile.css);
 
 /* BREADCRUMBS */
 @import url(../blocks/breadcrumbs/breadcrumbs.css);
-@import url(../blocks/breadcrumbs/breadcrumbs__item/breadcrumbs__item.css);
-@import url(../blocks/breadcrumbs/breadcrumbs__link/breadcrumbs__link.css);
-@import url(../blocks/breadcrumbs/breadcrumbs__link/_active/breadcrumbs__link_active.css);
+@import url(../blocks/breadcrumbs/__item/breadcrumbs__item.css);
+@import url(../blocks/breadcrumbs/__link/breadcrumbs__link.css);
+@import url(../blocks/breadcrumbs/__link/_active/breadcrumbs__link_active.css);
 
 
 /* GRID */
 @import url(../blocks/grid-list/grid-list.css);
-@import url(../blocks/grid-list/grid-list__main/grid-list__main.css);
-@import url(../blocks/grid-list/grid-list__action/grid-list__action.css);
-@import url(../blocks/grid-list/grid-list__sidebar/grid-list__sidebar.css);
+@import url(../blocks/grid-list/__main/grid-list__main.css);
+@import url(../blocks/grid-list/__action/grid-list__action.css);
+@import url(../blocks/grid-list/__sidebar/grid-list__sidebar.css);
 
 /* VEBINAR */
 @import url(../blocks/vebinar/vebinar.css);
-@import url(../blocks/vebinar/vebinar__title/vebinar__title.css);
-@import url(../blocks/vebinar/vebinar__date/vebinar__date.css);
-@import url(../blocks/vebinar/vebinar__text-accent/vebinar__text-accent.css);
-@import url(../blocks/vebinar/vebinar__button/vebinar__button.css);
+@import url(../blocks/vebinar/__title/vebinar__title.css);
+@import url(../blocks/vebinar/__date/vebinar__date.css);
+@import url(../blocks/vebinar/__text-accent/vebinar__text-accent.css);
+@import url(../blocks/vebinar/__button/vebinar__button.css);
 
 /* ACTION-PANEL */
 @import url(../blocks/action-panel/action-panel.css);
-@import url(../blocks/action-panel/action-panel__button/action-panel__button.css);
-@import url(../blocks/action-panel/action-panel__button/_type/action-panel__button_type_back.css);
-@import url(../blocks/action-panel/action-panel__button/_type/action-panel__button_type_ahead.css);
-@import url(../blocks/action-panel/action-panel__icon/action-panel__icon.css);
+@import url(../blocks/action-panel/__button/action-panel__button.css);
+@import url(../blocks/action-panel/__button/_type/action-panel__button_type_back.css);
+@import url(../blocks/action-panel/__button/_type/action-panel__button_type_ahead.css);
+@import url(../blocks/action-panel/__icon/action-panel__icon.css);
 
 /* SIDEBAR */
 @import url(../blocks/sidebar/sidebar.css);

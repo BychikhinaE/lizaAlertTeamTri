@@ -12,14 +12,18 @@
   box-sizing: border-box;
   cursor: pointer;
   border-top: 1px solid #e6e7eb;
-  font-family: "Golos";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   color: #212329;
+  transition: opacity .3s;
 }
 
 .sidebar__item:last-child .sidebar__button {
   padding-bottom: 0;
+}
+
+.sidebar__button:hover {
+  opacity: .5;
 }
