@@ -55,15 +55,14 @@
 @import url(../blocks/sidebar/__paragraph/_active/sidebar__paragraph_active.css);
 
 /* ico */
-@import url(../blocks/ico/__lesson/ico__lesson.css);
-@import url(../blocks/ico/__lesson/_active/ico__lesson_active.css);
-@import url(../blocks/ico/__webinar/ico__webinar.css);
-@import url(../blocks/ico/__webinar/_active/ico__webinar_active.css);
-@import url(../blocks/ico/__video/ico__video.css);
-@import url(../blocks/ico/__video/_active/ico__video_active.css);
-@import url(../blocks/ico/__test/ico__test.css);
-@import url(../blocks/ico/__test/_active/ico__test_active.css);
-@import url(../blocks/ico/__circle/ico__circle.css);
-@import url(../blocks/ico/__circle/_done/ico__circle_done.css);
-
-
+@import url(../blocks/ico/ico.css);
+@import url(../blocks/ico/_type/ico_type_circle.css);
+@import url(../blocks/ico/_type/ico_type_circle-done.css);
+@import url(../blocks/ico/_type/ico_type_lesson-active.css);
+@import url(../blocks/ico/_type/ico_type_lesson.css);
+@import url(../blocks/ico/_type/ico_type_test-active.css);
+@import url(../blocks/ico/_type/ico_type_test.css);
+@import url(../blocks/ico/_type/ico_type_video-active.css);
+@import url(../blocks/ico/_type/ico_type_webinar.css);
+@import url(../blocks/ico/_type/ico_type_webinar-active.css);
+@import url(../blocks/ico/_type/ico_type_video.css);
