@@ -13,10 +13,10 @@ buttonSidebar.forEach((element) => {
       .classList.contains("sidebar__panel_opened")
   ) {
     el.querySelector(".sidebar__panel_opened").style.height = heihtEl;
+    elIco.style.transform = 'scaleY(-1)';
   }
   // вешаем слушатели на все кнопки
   el.addEventListener("click", function () {
-    elIco.classList.toggle("sidebar__ico-button_rotated"); // меняем иконку при клике
     // проверяем если панель
     //если  открыта меняем высоту контента на 0 и закрываем его
     //если закрыта открываем панель и задаем высоту контента
@@ -28,9 +28,11 @@ buttonSidebar.forEach((element) => {
     ) {
       el.querySelector(".sidebar__panel_opened").style.height = "0";
       elPanel.classList.remove("sidebar__panel_opened");
+      elIco.style.transform = 'scaleY(1)';
     } else {
       elPanel.classList.add("sidebar__panel_opened");
       el.querySelector(".sidebar__panel_opened").style.height = heihtEl;
+      elIco.style.transform = 'scaleY(-1)';
     }
   });
 });

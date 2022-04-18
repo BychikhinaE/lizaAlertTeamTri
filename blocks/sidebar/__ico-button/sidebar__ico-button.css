@@ -3,5 +3,5 @@
   height: 24px;
   margin-left: 8px;
   object-fit: scale-down;
-  transition: transform ease 50ms;
+  transition: transform ease .3s;
 }
