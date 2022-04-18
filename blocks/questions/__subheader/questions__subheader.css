@@ -8,6 +8,9 @@
   justify-content: space-between;
   flex-wrap: wrap;
   cursor: pointer;
+  transition: opacity ease .3s;
 }
 
-
+.questions__subheader:hover {
+  opacity: .5;
+}
