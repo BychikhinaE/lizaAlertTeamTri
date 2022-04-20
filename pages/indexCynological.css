@@ -1,0 +1,86 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+
+/* HEADER */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__list-link/header__list-link.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_type/header__link_type_course.css);
+@import url(../blocks/header/__link/_type/header__link_type_profile.css);
+
+/* CYNOLOGICAL */
+@import url(../blocks/cynolog-head/cynolog-head.css);
+@import url(../blocks/section-card/section-card.css);
+@import url(../blocks/section-card/__header/section-card__header.css);
+@import url(../blocks/section-card/__title/section-card__title.css);
+@import url(../blocks/section-card/__button/section-card__button.css);
+
+
+/* DESCRIPTION */
+@import url(../blocks/description-card/description-card.css);
+@import url(../blocks/description-card/__header-text/description-card__header-text.css);
+@import url(../blocks/description-card/__subheader-text/description-card__subheader-text.css);
+@import url(../blocks/description-card/__subheader-title/description-card__subheader-title.css);
+@import url(../blocks/description-card/__subheader-point/description-card__subheader-point.css);
+
+/* BENEFITS */
+@import url(../blocks/benefits/benefits.css);
+@import url(../blocks/benefits/__subheader-title/benefits__subheader-title.css);
+@import url(../blocks/benefits/__title/benefits__title.css);
+@import url(../blocks/benefits/__subheader-text/benefits__subheader-text.css);
+
+/* QUESTIONS */
+@import url(../blocks/questions/questions.css);
+@import url(../blocks/questions/__divider/questions__divider.css);
+@import url(../blocks/questions/__subheader/questions__subheader.css);
+@import url(../blocks/questions/__divider-button/questions__divider-button.css);
+@import url(../blocks/questions/__hide-img/questions__hide-img.css);
+@import url(../blocks/questions/__answer-text/questions__answer-text.css);
+@import url(../blocks/questions/__answer/questions__answer.css);
+
+/* GRID */
+@import url(../blocks/grid-list/grid-list.css);
+@import url(../blocks/grid-list/__main/grid-list__main.css);
+@import url(../blocks/grid-list/__sidebar/grid-list__sidebar.css);
+
+/* COURSE INFO */
+@import url(../blocks/course-info/course-info.css);
+@import url(../blocks/course-info/__picture/course-info__picture.css);
+@import url(../blocks/course-info/__list/course-info__list.css);
+@import url(../blocks/course-info/__item/course-info__item.css);
+@import url(../blocks/course-info/__icon/course-info__icon.css);
+@import url(../blocks/course-info/__text-container/course-info__text-container.css);
+@import url(../blocks/course-info/__text/course-info__text.css);
+@import url(../blocks/course-info/__block-attantion/course-info__block-attantion.css);
+@import url(../blocks/course-info/__text-attantion/course-info__text-attantion.css);
+@import url(../blocks/course-info/__button-next/course-info__button-next.css);
+
+/* СОДЕРЖАНИЕ */
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__lists/table__lists.css);
+@import url(../blocks/table/__list/table__list.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/__lessons/table__lessons.css);
+@import url(../blocks/table/__lesson/table__lesson.css);
+@import url(../blocks/table/__paragraph/table__paragraph.css);
+@import url(../blocks/table/__divider/table__divider.css);
+
+/* ico */
+@import url(../blocks/ico/ico.css);
+@import url(../blocks/ico/_type/ico_type_circle.css);
+@import url(../blocks/ico/_type/ico_type_circle-done.css);
+@import url(../blocks/ico/_type/ico_type_lesson-active.css);
+@import url(../blocks/ico/_type/ico_type_lesson.css);
+@import url(../blocks/ico/_type/ico_type_test-active.css);
+@import url(../blocks/ico/_type/ico_type_test.css);
+@import url(../blocks/ico/_type/ico_type_video-active.css);
+@import url(../blocks/ico/_type/ico_type_webinar.css);
+@import url(../blocks/ico/_type/ico_type_webinar-active.css);
+@import url(../blocks/ico/_type/ico_type_video.css);
+
+
+/* Приоритетное свойство для исчезающих блоков */
+@import url(../blocks/card-hidden/card-hidden.css);

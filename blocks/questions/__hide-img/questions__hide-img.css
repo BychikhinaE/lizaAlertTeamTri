@@ -1,0 +1,8 @@
+.questions__hide-img {
+  object-fit: contain;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  padding: 6px;
+  transition: transform .3s;
+}

@@ -1,0 +1,10 @@
+.questions__divider {
+  border-bottom: 1px solid #E6E7EB;
+  box-sizing: border-box;
+  padding: 30px 0;
+}
+
+.questions__divider:last-child {
+  border: none;
+  padding-bottom: 0;
+}

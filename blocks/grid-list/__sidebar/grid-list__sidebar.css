@@ -1,0 +1,4 @@
+.grid-list__sidebar {
+  grid-area: sidebar;
+  align-self: start;
+}

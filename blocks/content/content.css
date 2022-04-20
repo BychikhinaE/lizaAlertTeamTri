@@ -1,0 +1,11 @@
+.content {
+  min-height: 228px;
+  width: 100%;
+  box-shadow: 0 0 4px rgba(231, 232, 235, .6),
+  0 4px 16px rgba(231, 232, 235, .6);
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}

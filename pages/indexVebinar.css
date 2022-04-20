@@ -1,0 +1,68 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+
+/* HEADER */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__list-link/header__list-link.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_type/header__link_type_course.css);
+@import url(../blocks/header/__link/_type/header__link_type_profile.css);
+
+/* BREADCRUMBS */
+@import url(../blocks/breadcrumbs/breadcrumbs.css);
+@import url(../blocks/breadcrumbs/__item/breadcrumbs__item.css);
+@import url(../blocks/breadcrumbs/__link/breadcrumbs__link.css);
+@import url(../blocks/breadcrumbs/__link/_active/breadcrumbs__link_active.css);
+
+
+/* GRID */
+@import url(../blocks/grid-list/grid-list.css);
+@import url(../blocks/grid-list/__main/grid-list__main.css);
+@import url(../blocks/grid-list/__action/grid-list__action.css);
+@import url(../blocks/grid-list/__sidebar/grid-list__sidebar.css);
+
+/* VEBINAR */
+@import url(../blocks/vebinar/vebinar.css);
+@import url(../blocks/vebinar/__title/vebinar__title.css);
+@import url(../blocks/vebinar/__date/vebinar__date.css);
+@import url(../blocks/vebinar/__text-accent/vebinar__text-accent.css);
+@import url(../blocks/vebinar/__button/vebinar__button.css);
+
+/* ACTION-PANEL */
+@import url(../blocks/action-panel/action-panel.css);
+@import url(../blocks/action-panel/__button/action-panel__button.css);
+@import url(../blocks/action-panel/__button/_type/action-panel__button_type_back.css);
+@import url(../blocks/action-panel/__button/_type/action-panel__button_type_ahead.css);
+@import url(../blocks/action-panel/__icon/action-panel__icon.css);
+
+/* SIDEBAR */
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/sidebar/__header/sidebar__header.css);
+@import url(../blocks/sidebar/__list/sidebar__list.css);
+@import url(../blocks/sidebar/__sub-list/sidebar__sub-list.css);
+@import url(../blocks/sidebar/__item/sidebar__item.css);
+@import url(../blocks/sidebar/__sub-item/sidebar__sub-item.css);
+@import url(../blocks/sidebar/__button/sidebar__button.css);
+@import url(../blocks/sidebar/__panel/sidebar__panel.css);
+@import url(../blocks/sidebar/__ico-button/sidebar__ico-button.css);
+@import url(../blocks/sidebar/__panel/_opened/sidebar__panel_opened.css);
+@import url(../blocks/sidebar/__circle/sidebar__circle.css);
+@import url(../blocks/sidebar/__paragraph/sidebar__paragraph.css);
+@import url(../blocks/sidebar/__paragraph/_active/sidebar__paragraph_active.css);
+
+/* ico */
+@import url(../blocks/ico/ico.css);
+@import url(../blocks/ico/_type/ico_type_circle.css);
+@import url(../blocks/ico/_type/ico_type_circle-done.css);
+@import url(../blocks/ico/_type/ico_type_lesson-active.css);
+@import url(../blocks/ico/_type/ico_type_lesson.css);
+@import url(../blocks/ico/_type/ico_type_test-active.css);
+@import url(../blocks/ico/_type/ico_type_test.css);
+@import url(../blocks/ico/_type/ico_type_video-active.css);
+@import url(../blocks/ico/_type/ico_type_webinar.css);
+@import url(../blocks/ico/_type/ico_type_webinar-active.css);
+@import url(../blocks/ico/_type/ico_type_video.css);
+

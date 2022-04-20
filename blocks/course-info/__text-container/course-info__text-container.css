@@ -1,0 +1,6 @@
+.course-info__text-container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 24px;
+  width: 336px;
+}

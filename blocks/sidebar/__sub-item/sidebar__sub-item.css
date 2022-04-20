@@ -1,0 +1,19 @@
+.sidebar__sub-item {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: flex-start;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212329;
+}
+
+.sidebar__sub-item:last-child {
+  margin-bottom: 32px;
+}
+
+.sidebar__item:last-child .sidebar__sub-item:last-child {
+  margin-top: 32px;
+  margin-bottom: 0;
+}

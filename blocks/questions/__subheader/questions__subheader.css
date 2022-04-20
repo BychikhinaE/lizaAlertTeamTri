@@ -1,0 +1,16 @@
+.questions__subheader {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: pointer;
+  transition: opacity ease .3s;
+}
+
+.questions__subheader:hover {
+  opacity: .5;
+}

@@ -1,0 +1,9 @@
+.table__lesson {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 16px;
+}
+
+.table__lesson:last-child {
+  padding-bottom: 0;
+}

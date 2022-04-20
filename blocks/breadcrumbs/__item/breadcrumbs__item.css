@@ -1,0 +1,18 @@
+.breadcrumbs__item::after {
+  content: "";
+  display: inline-block;
+  vertical-align: bottom;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-sizing: border-box;
+  padding: 6px;
+}
+.breadcrumbs__item:last-child::after {
+  background-image: none;
+  width: 0px;
+  height: 0px;
+  padding: 0px;
+}
